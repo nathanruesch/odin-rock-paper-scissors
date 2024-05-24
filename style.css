@@ -1,0 +1,42 @@
+#container {
+    background-color: darkgray;
+    padding-bottom: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+#roundWinner {
+    color: purple;
+    font-size: 28px;
+}
+
+.play-button {
+    width: 120px;
+    height: 30px;
+}
+
+.score-text {
+    font-size: 24px;
+    color: purple;
+}
